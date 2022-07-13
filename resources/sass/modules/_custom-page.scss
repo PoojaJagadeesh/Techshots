@@ -1,0 +1,81 @@
+.feed-shared {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 20px;
+    background: $theme-color;
+    position: relative;
+    z-index: 11;
+    background-image: url(~/images/feed-bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#000, 0.7);
+      background-image: linear-gradient(to bottom, transparent, $theme-color);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .content-block {
+      .logo {
+        max-width: 180px;
+        margin: 0 auto 30px auto;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .story-card {
+      max-width: 300px;
+      border: none;
+      min-height: 620px;
+    }
+  }
+  // Added by developer
+  .copyOverlay {
+    position: fixed;
+    top: 33px;
+    z-index: 10;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .copyTxt {
+    text-align: right;
+    margin-right: 37px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    cursor: pointer;
+  }
+  #text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

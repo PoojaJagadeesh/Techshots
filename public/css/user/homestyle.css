@@ -1,0 +1,418 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(/fonts/OpenSans-Regular.eot?38ca9e2302c8793c93f854e8595eed78);
+    src: url(/fonts/OpenSans-Regular.eot?38ca9e2302c8793c93f854e8595eed78?#iefix) format("embedded-opentype"), url(/fonts/OpenSans-Regular.woff2?5d5735e57127db2f7a2ad879fc6056b8) format("woff2"), url(/fonts/OpenSans-Regular.woff?6fde2eb6728eb97fd914dcd0641d332b) format("woff"), url(/fonts/OpenSans-Regular.ttf?8df00d6176ddae387d9431d3307b3e62) format("truetype"), url(/fonts/OpenSans-Regular.svg?bbbd47d2660d3547e98a864324874080#OpenSans-Regular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/Gilroy-Bold.eot?a4859fd22290beee56d6ef5716744474);
+    src: url(/fonts/Gilroy-Bold.eot?a4859fd22290beee56d6ef5716744474?#iefix) format("embedded-opentype"), url(/fonts/Gilroy-Bold.woff2?468998b9d2cec79efa39ee1123adb5b8) format("woff2"), url(/fonts/Gilroy-Bold.woff?5996d77553a536f577cc940d581f47f9) format("woff"), url(/fonts/Gilroy-Bold.ttf?342a4e771764a5ddb314874227db546b) format("truetype"), url(/fonts/Gilroy-Bold.svg?87493c14c4be2774dcd509a64c0cbaa5#Gilroy-Bold) format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/Gilroy-Light.eot?5756849ea948b50df1df68bf5a521ddf);
+    src: url(/fonts/Gilroy-Light.eot?5756849ea948b50df1df68bf5a521ddf?#iefix) format("embedded-opentype"), url(/fonts/Gilroy-Light.woff2?deae3edb6ee82e478caa1ab4b759b496) format("woff2"), url(/fonts/Gilroy-Light.woff?99b5f167fb71ff58a0e66e8be3b5ad2e) format("woff"), url(/fonts/Gilroy-Light.ttf?133d1beb40212d48709d775838107d47) format("truetype"), url(/fonts/Gilroy-Light.svg?4c6ff033ca667c26a3b10d6d7efe0fb7#Gilroy-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/Gilroy-Medium.eot?99ee9306a5ea22bb6bbfbf980c195c12);
+    src: url(/fonts/Gilroy-Medium.eot?99ee9306a5ea22bb6bbfbf980c195c12?#iefix) format("embedded-opentype"), url(/fonts/Gilroy-Medium.woff2?c60110c3aec34136989bd47326d63887) format("woff2"), url(/fonts/Gilroy-Medium.woff?c49df7867e7bbfc1a8289160f0b4a091) format("woff"), url(/fonts/Gilroy-Medium.ttf?985072b03538b0fe858f770d796138ca) format("truetype"), url(/fonts/Gilroy-Medium.svg?68cd89f37d842d4457242377c231f88a#Gilroy-Medium) format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/Gilroy-Regular.eot?30c66ba187d2f79f023b589258b44384);
+    src: url(/fonts/Gilroy-Regular.eot?30c66ba187d2f79f023b589258b44384?#iefix) format("embedded-opentype"), url(/fonts/Gilroy-Regular.woff2?32dc33477a6e75b7636c1e25f4788fe7) format("woff2"), url(/fonts/Gilroy-Regular.woff?f15baeabbd0bc1effe9987061ed18b8a) format("woff"), url(/fonts/Gilroy-Regular.ttf?e19d51ce1f70bb2ce69a94230c10896d) format("truetype"), url(/fonts/Gilroy-Regular.svg?54536ebd96852662d9213a98a12ffb3a#Gilroy-Regular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-Regular.eot?b9077621ce786b55c176a61456bfc077);
+    src: url(/fonts/Roboto-Regular.eot?b9077621ce786b55c176a61456bfc077?#iefix) format("embedded-opentype"), url(/fonts/Roboto-Regular.woff2?9feb0110b6dff9ee2b9ebd17f7a1aee6) format("woff2"), url(/fonts/Roboto-Regular.woff?94dac78eee406a8c8f0406b69b85ac2b) format("woff"), url(/fonts/Roboto-Regular.ttf?4312f1fbdcf4d54af4506dabdce08010) format("truetype"), url(/fonts/Roboto-Regular.svg?30e7106ff494cd8cdb1d1c68d78bd7d0#Roboto-Regular) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+#stories{
+    padding: 0 25px;
+}
+#outer {
+    
+     width: 100%;
+     overflow: hidden;
+     white-space: nowrap;
+     display: inline-block;
+   }
+   #inner {
+   
+    display: inline-block;
+    width: 18vw;
+    max-width: 90px;
+    margin: 0 6px;
+    vertical-align: top;
+  }
+  
+   #left-button {
+     float: left;
+     width: 30px;
+     text-align: center;
+   }
+   #right-button,  #left-button {
+     
+     width: 30px;
+     position: absolute;
+     
+   }
+   #right-button
+{
+    left: 0;
+    top: 35%;
+}
+#left-button {
+   right: 0;
+   top: 35%;
+  }
+  #right-button a,#left-button a {
+      cursor: pointer;
+     
+   }
+   
+  
+   .hide {
+     display: none;
+   }
+.homeheading {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 41px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.img-fluidlogo {
+    max-width: 100%;
+    height: auto;
+}
+
+.imghome {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-container {
+    margin-bottom: 2em;
+}
+
+.flex-item-leftside {
+    flex: 30%;
+}
+
+.flex-item-rightside {
+    flex: 70%;
+}
+
+.profilep {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 14px !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff !important;
+    max-width: 200px;
+    word-break: break-word;
+}
+
+.idp {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px !important;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff !important;
+    max-width: 200px;
+    word-break: break-word;
+}
+
+.flex-item-leftbtn {
+    flex: 20%;
+}
+
+.flex-item-rightbtn {
+    flex: 80%;
+}
+
+.mt-text {
+    margin-top: 0.1rem;
+}
+
+.sidebar .sidebar-home {
+    display: block;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, .8);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem .5rem 1rem;
+}
+
+.bgfeed {
+    background-color: #7a54fc;
+}
+
+.bginfo {
+    background-color: #ff6968;
+}
+
+.bgdisc {
+    background-color: #ff8f4b;
+}
+
+.bgscore {
+    background-color: #b53bfe;
+}
+.bgfav {
+    background-color: #d9adfb;
+}
+.bgprem {
+    background-color: #4c69d6;
+}
+
+.mtf-4 {
+    margin-top: 4.5rem;
+}
+
+.premium {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#wrapper #content-wrapper {
+    width: calc(100% - 350px);
+    overflow-x: hidden;
+    margin-left: 350px;
+}
+
+.homeheading {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 41px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.imgcircle {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ff8f4b;
+}
+
+.fleximage {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.paddingrow {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.story-card {
+    font-size: 0.875rem;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+   
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+
+.coldiv .col-md-3:last-of-type {
+    margin-bottom: 30px;
+}
+.storyheadingp {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a1119;
+}
+
+.storyp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: left;
+    color: #718398;
+}
+
+.datep {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.3;
+    text-align: left;
+    color: #718398;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.rowinfo {
+    /* IE10 */
+    display: flex;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        display: none !important;
+    }
+}
+
+@media (min-width: 799px) {
+    .sidebar {
+        position: fixed;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .sidebar::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+
+/* Laptop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1605px) {
+    .mtf-4 {
+        margin-top: 1.5rem !important;
+    }
+    .sidebar {
+        width: 250px  !important;
+    }
+    .sidebar .sidebar-home {
+        font-size: 15px;
+        color: #ffffff;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        height: 46px;
+        line-height: 46px;
+        padding: 0 8px;
+    }
+    .sidebar .sidebar-card { padding: 8px;}
+    .coldiv .col-md-3:last-of-type {
+        margin-bottom: 25px;
+    }
+    .story-card {
+        padding: 8px;
+        margin-top: 25px;
+    }
+    #wrapper #content-wrapper {
+        width: calc(100% - 250px);
+        overflow-x: hidden;
+        margin-left: 250px;
+    }
+    .profilep{
+        max-width: 160px;
+    }
+    .idp{
+        max-width: 160px;
+    }
+}

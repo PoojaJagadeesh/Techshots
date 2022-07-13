@@ -1,0 +1,57 @@
+/*===========================================
+Responsive Break Points
+===========================================*/
+
+@mixin media-breakpoint-up($point) {
+  @if $point == xxxl {
+    @media (min-width: 1600px) { @content ; }
+  }
+  @if $point == xxl {
+    @media (min-width: 1280px) { @content ; }
+  }
+  @if $point == xl {
+  @media (min-width: 1024px) { @content ; }
+  }
+  @else if $point == lg {
+    @media (min-width: 980px) { @content ; }
+  }
+  @else if $point == md {
+    @media (min-width: 768px) { @content ; }
+  }
+   @else if $point == sm {
+    @media (min-width: 640px) { @content ; }
+  }
+  @else if $point == xs {
+    @media (min-width: 480px)  { @content ; }
+  }
+  @else if $point == xxs {
+    @media (min-width: 320px)  { @content ; }
+  }
+}
+
+@mixin media-breakpoint-down($point) {
+  @if $point == xxxl {
+    @media (max-width: 1599.98px) { @content ; }
+  }
+  @if $point == xxl {
+    @media (max-width: 1279.98px) { @content ; }
+  }
+  @if $point == xl {
+    @media (max-width: 1023.98px) { @content ; }
+  }
+  @else if $point == lg {
+    @media (max-width: 979.98px) { @content ; }
+  }
+   @else if $point == md {
+    @media (max-width: 767.98px) { @content ; }
+  }
+  @else if $point == sm {
+    @media (max-width: 639.98px)  { @content ; }
+  }
+  @else if $point == xs {
+    @media (max-width: 479.98px)  { @content ; }
+  }
+  @else if $point == xxs {
+    @media (max-width: 319.98px)  { @content ; }
+  }
+}

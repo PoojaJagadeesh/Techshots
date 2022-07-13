@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*!
+* Start Bootstrap - SB Admin v6.0.2 (https://startbootstrap.com/template/sb-admin)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)
+*/
+
+
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../font/Raleway-Regular.eot');
+  src: url('../font/Raleway-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Raleway-Regular.woff2') format('woff2'), url('../font/Raleway-Regular.woff') format('woff'), url('../font/Raleway-Regular.ttf') format('truetype'), url('../font/Raleway-Regular.svg#Raleway-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../font/Raleway-Bold.eot');
+  src: url('../font/Raleway-Bold.eot?#iefix') format('embedded-opentype'), url('../font/Raleway-Bold.woff2') format('woff2'), url('../font/Raleway-Bold.woff') format('woff'), url('../font/Raleway-Bold.ttf') format('truetype'), url('../font/Raleway-Bold.svg#Raleway-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/OpenSans-Regular.eot');
+  src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../font/OpenSans-Regular.woff2') format('woff2'), url('../font/OpenSans-Regular.woff') format('woff'), url('../font/OpenSans-Regular.ttf') format('truetype'), url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Regular.eot');
+  src: url('../font/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Lato-Regular.woff2') format('woff2'), url('../font/Lato-Regular.woff') format('woff'), url('../font/Lato-Regular.ttf') format('truetype'), url('../font/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Bold.eot');
+  src: url('../font/Lato-Bold.eot?#iefix') format('embedded-opentype'), url('../font/Lato-Bold.woff2') format('woff2'), url('../font/Lato-Bold.woff') format('woff'), url('../font/Lato-Bold.ttf') format('truetype'), url('../font/Lato-Bold.svg#Lato-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Black.eot');
+  src: url('../font/Lato-Black.eot?#iefix') format('embedded-opentype'), url('../font/Lato-Black.woff2') format('woff2'), url('../font/Lato-Black.woff') format('woff'), url('../font/Lato-Black.ttf') format('truetype'), url('../font/Lato-Black.svg#Lato-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../font/SourceSansPro-Bold.eot');
+  src: url('../font/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'), url('../font/SourceSansPro-Bold.woff2') format('woff2'), url('../font/SourceSansPro-Bold.woff') format('woff'), url('../font/SourceSansPro-Bold.ttf') format('truetype'), url('../font/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../font/SourceSansPro-Regular.eot');
+  src: url('../font/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), url('../font/SourceSansPro-Regular.woff2') format('woff2'), url('../font/SourceSansPro-Regular.woff') format('woff'), url('../font/SourceSansPro-Regular.ttf') format('truetype'), url('../font/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: Helvetica,Tahoma;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.aos-all {
+  /*width: 1000px;*/
+  max-width: 98%;
+  /*margin: 10vh auto 0 auto;*/
+}
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+  height: 300px;
+  padding: 20px;
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #1da4e2;
+  line-height: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 50%;
+  }
+}

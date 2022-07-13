@@ -1,0 +1,677 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/OpenSans-Regular.eot");
+    src: url("../font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../font/OpenSans-Regular.woff2") format("woff2"), url("../font/OpenSans-Regular.woff") format("woff"), url("../font/OpenSans-Regular.ttf") format("truetype"), url("../font/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Bold.eot");
+    src: url("../font/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Bold.woff2") format("woff2"), url("../font/Gilroy-Bold.woff") format("woff"), url("../font/Gilroy-Bold.ttf") format("truetype"), url("../font/Gilroy-Bold.svg#Gilroy-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Light.eot");
+    src: url("../font/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Light.woff2") format("woff2"), url("../font/Gilroy-Light.woff") format("woff"), url("../font/Gilroy-Light.ttf") format("truetype"), url("../font/Gilroy-Light.svg#Gilroy-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Medium.eot");
+    src: url("../font/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Medium.woff2") format("woff2"), url("../font/Gilroy-Medium.woff") format("woff"), url("../font/Gilroy-Medium.ttf") format("truetype"), url("../font/Gilroy-Medium.svg#Gilroy-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Regular.eot");
+    src: url("../font/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Gilroy-Regular.woff2") format("woff2"), url("../font/Gilroy-Regular.woff") format("woff"), url("../font/Gilroy-Regular.ttf") format("truetype"), url("../font/Gilroy-Regular.svg#Gilroy-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.eot");
+    src: url("../font/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Regular.woff2") format("woff2"), url("../font/Roboto-Regular.woff") format("woff"), url("../font/Roboto-Regular.ttf") format("truetype"), url("../font/Roboto-Regular.svg#Roboto-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Normal Classes */
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.bgbody {
+    background-color: #110833;
+    background-size: cover;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.formdiv .btn { padding: 0; margin-top: 20px; margin-bottom: 45px;}
+.input-group {
+    width: 350px;
+    height: 72px;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+
+
+.img-fixed {
+    position: fixed !important;
+}
+
+.pttl {
+    padding: 20% 0 0 20%;
+}
+
+.pttop {
+    padding-top: 15%;
+}
+
+.ptleft {
+    padding-left: 20%;
+}
+
+
+/* Login Page Styles Start */
+
+#Group_171o {
+    display: none;
+}
+
+#Group_173o {
+    display: none;
+}
+.formdiv { position: relative;}
+.loginheading {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 35px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.formicon {
+    position: absolute;
+    z-index: 1;
+    padding: 24px 24px 24px 24px;
+}
+
+.img-fluidlogo {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Login Page Style End */
+
+
+/* Home Page Styles Start */
+
+.siderightbar {
+    border-right: 1px solid white;
+}
+
+.flex-item-leftside {
+    flex: 30%;
+}
+
+.flex-item-rightside {
+    flex: 70%;
+}
+
+.profilep {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 14px !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff !important;
+}
+
+.idp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff !important;
+}
+
+.flex-item-leftbtn {
+    flex: 20%;
+}
+
+.flex-item-rightbtn {
+    flex: 80%;
+}
+
+.mt-text {
+    margin-top: 0.1rem;
+}
+
+.bgfeed {
+    background-color: #7a54fc;
+}
+
+.bginfo {
+    background-color: #ff6968;
+}
+
+.bgdisc {
+    background-color: #ff8f4b;
+}
+
+.bgscore {
+    background-color: #b53bfe;
+}
+.bgfav {
+    background-color: #d9adfb;
+}
+.bgprem {
+    background-color: #4c69d6;
+}
+
+.mtf-4 {
+    margin-top: 4.5rem !important;
+}
+
+.premium {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 11rem;
+}
+
+.homeheading {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 41px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.imgcircle {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ff8f4b;
+}
+
+.fleximage {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.paddingrow {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.story-card {
+    font-size: 0.875rem;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.storyheadingp {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a1119;
+}
+
+.storyp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.67;
+    text-align: left;
+    color: #718398;
+}
+
+.datep {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.3;
+    text-align: left;
+    color: #718398;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.pt-24 {
+    padding-left: 24px;
+}
+
+.mlg-5 {
+    margin-left: 5rem;
+}
+
+@media (max-width: 480px) {
+    .story-card {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .flex-item-right {
+        flex: 100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .flex-item-left {
+        display: none !important;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .pttl {
+        padding: 5% 0 0 5%;
+    }
+    .pttop {
+        padding-top: 5%;
+    }
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+    .mt-4 {
+        margin-top: 0.5rem !important;
+    }
+    .mlg-5 {
+        margin-left: 0 !important;
+    }
+    .form-control {
+        display: block;
+        width: 100% !important;
+    }
+    .input-group {
+        width: 100% !important;
+        flex-wrap: nowrap;
+    }
+    .btn-primary {
+        width: 100% !important;
+    }
+    .btn-primary:hover {
+        width: 100% !important;
+    }
+    .btn-primary.focus,
+    .btn-primary:focus {
+        width: 100% !important;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .show>.btn-primary.dropdown-toggle {
+        width: 100% !important;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        width: 100% !important;
+    }
+    .btn-secondary {
+        width: 100% !important;
+    }
+    .btn-secondary:hover {
+        width: 100% !important;
+    }
+    .btn-secondary.focus,
+    .btn-secondary:focus {
+        width: 100% !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active,
+    .btn-secondary:not(:disabled):not(.disabled):active,
+    .show>.btn-secondary.dropdown-toggle {
+        width: 100% !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .btn-secondary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-secondary.dropdown-toggle:focus {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1326px) {
+    .flex-item-left img {max-width: 520px;}
+    .flex-item-right {
+        padding-left: 0;
+
+    }
+    .flex-item-right img {max-width: 200px;}
+    .pttop {padding-top: 10%;}
+    .loginheading {
+        font-size: 25px;
+    }
+    .mt-5 { margin-top: 1.5rem !important;}
+    .form-control {
+        width: 250px !important;
+        padding: 0;
+    }
+    form.user .form-control-user {
+        padding: 0;
+    }
+    .btn-primary {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .input-group {
+        flex-wrap: nowrap;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    .formdiv .btn { padding: 0; margin-top: 15px; margin-bottom: 30px;}
+    .mlg-5 {
+        margin-left: 1.25rem;
+    }
+    .mt-4 {
+        margin-top: 1rem  !important;
+    }
+
+
+    .btn-primary:hover {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .show>.btn-primary.dropdown-toggle {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .pttl {
+        padding: 15% 0 0 10%;
+    }
+    .btn-secondary {
+        width: 250px !important;
+    }
+    .btn-secondary:hover {
+        width: 250px !important;
+    }
+    .btn-secondary.focus,
+    .btn-secondary:focus {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active,
+    .btn-secondary:not(:disabled):not(.disabled):active,
+    .show>.btn-secondary.dropdown-toggle {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .btn-secondary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-secondary.dropdown-toggle:focus {
+        width: 250px !important;
+    }
+}
+
+@media (min-width: 1327px) and (max-width: 1490px) {
+    .flex-item-left img {max-width: 680px;}
+    .flex-item-right {
+        padding-left: 0;
+
+    }
+    .flex-item-right img {max-width: 250px;}
+    .form-control {
+        width: 250px !important;
+        padding: 0;
+    }
+    form.user .form-control-user {
+        padding: 0;
+    }
+    .btn-primary {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .input-group {
+        flex-wrap: nowrap;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    .formdiv .btn { padding: 0; margin-top: 15px; margin-bottom: 30px;}
+    .mlg-5 {
+        margin-left: 1.25rem;
+    }
+    .mt-4 {
+        margin-top: 1rem  !important;
+    }
+
+
+    .btn-primary:hover {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .show>.btn-primary.dropdown-toggle {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .pttl {
+        padding: 15% 0 0 10%;
+    }
+    .btn-secondary {
+        width: 250px !important;
+    }
+    .btn-secondary:hover {
+        width: 250px !important;
+    }
+    .btn-secondary.focus,
+    .btn-secondary:focus {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active,
+    .btn-secondary:not(:disabled):not(.disabled):active,
+    .show>.btn-secondary.dropdown-toggle {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .btn-secondary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-secondary.dropdown-toggle:focus {
+        width: 250px !important;
+    }
+}
+
+@media (min-width: 1491px) and (max-width: 1600px) {
+    .flex-item-left img {max-width: 680px;}
+    .flex-item-right {
+        padding-left: 0;
+
+    }
+    .form-control {
+        width: 250px !important;
+        padding: 0;
+    }
+    form.user .form-control-user {
+        padding: 0;
+    }
+    .btn-primary {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .input-group {
+        flex-wrap: nowrap;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    .formdiv .btn { padding: 0; margin-top: 15px; margin-bottom: 30px;}
+    .btn-primary:hover {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .show>.btn-primary.dropdown-toggle {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        width: 250px;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+    }
+    .pttl {
+        padding: 20% 0 0 20%;
+    }
+    .btn-secondary {
+        width: 250px !important;
+    }
+    .btn-secondary:hover {
+        width: 250px !important;
+    }
+    .btn-secondary.focus,
+    .btn-secondary:focus {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active,
+    .btn-secondary:not(:disabled):not(.disabled):active,
+    .show>.btn-secondary.dropdown-toggle {
+        width: 250px !important;
+    }
+    .btn-secondary:not(:disabled):not(.disabled).active:focus,
+    .btn-secondary:not(:disabled):not(.disabled):active:focus,
+    .show>.btn-secondary.dropdown-toggle:focus {
+        width: 250px !important;
+    }
+}
